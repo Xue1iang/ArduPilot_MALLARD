@@ -31,7 +31,7 @@ Make sure you log into the correct GitHub account that has access to [EEEManches
 ## Setup environment
 [A script](https://github.com/ArduPilot/ardupilot/blob/master/Tools/environment_install/install-prereqs-ubuntu.sh) is provided to automatically setup your build environment.
 ```
-cd ardupilot
+cd ArduPilot_MALLARD
 Tools/environment_install/install-prereqs-ubuntu.sh -y
 ```
 
