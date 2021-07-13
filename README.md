@@ -34,6 +34,10 @@ Make sure you log into the correct GitHub account that has access to [EEEManches
 cd ArduPilot_MALLARD
 Tools/environment_install/install-prereqs-ubuntu.sh -y
 ```
+> **Note:** If the end of the command promp is not showing something similar to `echo xxx end------`, the setup is unsuccessful. If it complains about `'some-python-package' has no installation candidate`, your system is probably configured for Python3. You need to run the follow instead:
+> ```
+> Tools/environment_install/install-prereqs-ubuntu-py3.sh -y
+> ```
 
 Reload the path (log-out and log-in to make permanent):
 ```
@@ -42,6 +46,8 @@ Reload the path (log-out and log-in to make permanent):
 
 ## Build with WAF
 Make sure you are in ardupilot folder.
+
+> **Note:** For Python3 users, you need to replace `waf` with `waf-py3`.
 
 If you have previously built the firmware, you may want to clean WAF first:
 ```
