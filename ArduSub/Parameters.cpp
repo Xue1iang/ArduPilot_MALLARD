@@ -286,7 +286,7 @@ const AP_Param::Info Sub::var_info[] = {
     // @Description: Set this parameter according to your vehicle/motor configuration
     // @User: Standard
     // @RebootRequired: True
-    // @Values: 0:BlueROV1, 1:Vectored, 2:Vectored_6DOF, 3:Vectored_6DOF_90, 4:SimpleROV-3, 5:SimpleROV-4, 6:SimpleROV-5, 7:Custom, 8:Diagonal, 9:Full-Control
+    // @Values: 0:BlueROV1, 1:Vectored, 2:Vectored_6DOF, 3:Vectored_6DOF_90, 4:SimpleROV-3, 5:SimpleROV-4, 6:SimpleROV-5, 7:Custom, 8:JOYSTICK_PWM_CONTROL, 9:ROS_PWM_CONTROL
     GSCALAR(frame_configuration, "FRAME_CONFIG", AP_Motors6DOF::SUB_FRAME_CUSTOM),
 
     // @Group: BTN0_

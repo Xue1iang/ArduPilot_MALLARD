@@ -27,8 +27,8 @@ public:
         SUB_FRAME_SIMPLEROV_4,
         SUB_FRAME_SIMPLEROV_5,
         SUB_FRAME_CUSTOM,
-        SUB_FRAME_DIAGONAL,
-        SUB_FRAME_FULL_CONTROL
+        SUB_FRAME_JOYSTICK_PWM_CONTROL,
+        SUB_FRAME_ROS_PWM_CONTROL
     } sub_frame_t;
 
     // Override parent
